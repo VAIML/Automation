@@ -32,14 +32,10 @@ try:
     print("Typing 'India' into the search box...")
     search_box.send_keys("India")
 
-    # Press ENTER to search
     print("Pressing ENTER...")
     search_box.send_keys(Keys.RETURN)
 
-    # Wait for the results page to load
     time.sleep(5)
-
-    # Print success message
     print("Search successful!")
 
 except Exception as e:
